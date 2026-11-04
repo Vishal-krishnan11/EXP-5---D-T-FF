@@ -17,7 +17,8 @@ Q(next) = T ⊕ Q   (Q(next) = Q if T = 0, Q(next) = Q' if T = 1)
 ## Design / RTL Program
 // gedit dff_tff.v
 
- ```
+
+ 
 module dff (
     input  wire clk,   // clock
     input  wire rst,   // asynchronous active-high reset
@@ -156,6 +157,8 @@ In DVE:
 The waveform should agree with the truth table.
 
 ## Expected Result
+<img width="1917" height="1078" alt="Screenshot 2026-11-03 142226" src="https://github.com/user-attachments/assets/61082ef7-2b1d-4e4a-af54-a932b27a7e82" />
+
 
 The D Flip-Flop and T Flip-Flop were realized using Verilog HDL:
 
@@ -167,27 +170,8 @@ The design was compiled and simulated using Synopsys VCS, and the functionality 
 ## Output
 <img width="595" height="369" alt="image" src="https://github.com/user-attachments/assets/38290e4d-a813-4e0c-b891-68044c90623b" />
 
-## Viva-Voce Questions
+<img width="1911" height="1056" alt="Screenshot 2026-11-03 142136" src="https://github.com/user-attachments/assets/1bb77c8b-5a14-4e68-b046-508a405ff2f5" />
 
-●	What is the difference between a latch and a flip-flop?
-
-●	Why is the D flip-flop also called a 'delay' element?
-
-●	How is a T flip-flop derived from a JK flip-flop?
-
-●	What is the characteristic equation of a T flip-flop, and what does it mean when T = 1?
-
-●	What is the difference between synchronous and asynchronous reset? Which one is used here?
-
-●	Why is posedge used in the sensitivity list, and what does 'posedge clk or posedge rst' achieve?
-
-●	What is the purpose of a Verilog testbench?
-
-●	Why is a VCD file generated, and what does $dumpvars(0, tb) do?
-
-●	How would you construct a T flip-flop using a D flip-flop and an XOR gate?
-
-●	How can a chain of T flip-flops be used to build an asynchronous binary counter?
 
 ## Result
 

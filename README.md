@@ -107,7 +107,7 @@ endmodule
         #20 $finish;
     end
     endmodule
-
+```
 ## Truth Table
 
 <img width="349" height="264" alt="image" src="https://github.com/user-attachments/assets/d05e6f9d-ff68-466e-9eb8-52e22fa1b961" />
@@ -157,7 +157,7 @@ In DVE:
 The waveform should agree with the truth table.
 
 ## Expected Result
-<img width="1917" height="1078" alt="Screenshot 2026-11-03 142226" src="https://github.com/user-attachments/assets/61082ef7-2b1d-4e4a-af54-a932b27a7e82" />
+<img width="1911" height="1056" alt="Screenshot 2026-11-03 142136" src="https://github.com/user-attachments/assets/1bb77c8b-5a14-4e68-b046-508a405ff2f5" />
 
 
 The D Flip-Flop and T Flip-Flop were realized using Verilog HDL:
@@ -168,9 +168,8 @@ Q(next) = T ⊕ Q   (T Flip-Flop)
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
 ## Output
-<img width="595" height="369" alt="image" src="https://github.com/user-attachments/assets/38290e4d-a813-4e0c-b891-68044c90623b" />
+<img width="1917" height="1078" alt="Screenshot 2026-11-03 142226" src="https://github.com/user-attachments/assets/61082ef7-2b1d-4e4a-af54-a932b27a7e82" />
 
-<img width="1911" height="1056" alt="Screenshot 2026-11-03 142136" src="https://github.com/user-attachments/assets/1bb77c8b-5a14-4e68-b046-508a405ff2f5" />
 
 
 ## Result
